@@ -1,0 +1,39 @@
+/*
+Estilo de pagina  general
+
+*/
+
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 1px rgb(200, 141, 83);
+    background-image: url("../assets/clouds.gif");
+    background-size: cover;
+    background-color: #f1f1f1;
+}
+
+h1{
+    color: rgb(255, 238, 252);
+    
+}
+
+.titulo{
+    border: 3px solid rgb(192, 186, 212);
+    margin: 1%;
+    padding: 10%;
+    background-color: rgba(204, 165, 214, 0.6);
+   
+}
+
+footer{
+    position:absolute;
+    bottom: 0px;
+}
+
+.base{
+    border: 3px transparent rgb(192, 186, 212);
+    margin: 1%;
+    padding: 10%;
+    background-color: rgba(204, 165, 214, 0.6);
+}
+
