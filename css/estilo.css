@@ -3,7 +3,7 @@ Estilo de pagina  general
 
 */
 
-body{
+body, html{
     padding: 0%;
     margin: 0%;
     border: 1px rgb(200, 141, 83);
@@ -20,20 +20,24 @@ h1{
 .titulo{
     border: 3px solid rgb(192, 186, 212);
     margin: 1%;
-    padding: 10%;
+    padding: 3%;
     background-color: rgba(204, 165, 214, 0.6);
-   
+    border-radius: 25px;
 }
 
 footer{
-    position:absolute;
+    position:120vh;
     bottom: 0px;
+    border: 1px transparent;
+    color: #f1f1f1;
+
 }
 
 .base{
-    border: 3px transparent rgb(192, 186, 212);
+    border: 3px solid rgb(192, 186, 212);
     margin: 1%;
     padding: 10%;
     background-color: rgba(204, 165, 214, 0.6);
+    border-radius: 25px;
 }
 
