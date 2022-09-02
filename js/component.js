@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $("#header").load("../paginaArte/component/header.html");
-    $("#footer").load("../paginaArte/component/footer.html");
+    $("#header").load("../../component/header.html");
+    $("#footer").load("../../component/footer.html");
 });
