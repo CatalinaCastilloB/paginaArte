@@ -1,6 +1,6 @@
-%% DESCRIPCION DE PAGINAS %%
-% Index %
-% Contacto %
-% Favoritos %
-% Mi Arte %
-% Tips Arte %
+## DESCRIPCION DE PAGINAS ##
+# Index #
+# Contacto #
+# Favoritos #
+# Mi Arte #
+# Tips Arte #
