@@ -17,7 +17,13 @@ h1{
     
 }
 
+footer{
+    position:120vh;
+    bottom: 0px;
+    border: 1px transparent;
+    color: #f1f1f1;
 
+}
 
 .titulo{
     border: 3px solid rgb(192, 186, 212);
@@ -25,14 +31,6 @@ h1{
     padding: 3%;
     background-color: rgba(204, 165, 214, 0.6);
     border-radius: 25px;
-}
-
-footer{
-    position:120vh;
-    bottom: 0px;
-    border: 1px transparent;
-    color: #f1f1f1;
-
 }
 
 .base{
