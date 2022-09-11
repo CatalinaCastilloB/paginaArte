@@ -10,11 +10,18 @@ body, html{
     background-image: url("../assets/clouds.gif");
     background-size: cover;
     background-color: #f1f1f1;
+    font-size: large;
 }
 
 h1{
     color: rgb(255, 238, 252);
     
+}
+
+img{
+    border-radius: 15%;
+    margin-inline: auto;
+
 }
 
 footer{
@@ -23,6 +30,24 @@ footer{
     border: 1px transparent;
     color: #f1f1f1;
 
+}
+
+input{
+    width: 100%;
+    min-height: 30px;
+    border:2px solid rgb(200, 153, 202);
+    background-color: rgba(249, 227, 255, 0.733);
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+textarea#mensaje{
+    width: 100%;
+    min-height: 1.5em;
+    border:2px solid rgb(200, 153, 202);
+    background-color: rgba(249, 227, 255, 0.733);
+    border-radius: 25px;
+    padding: 15px;
 }
 
 .titulo{
@@ -37,7 +62,7 @@ footer{
     border: 3px solid rgb(192, 186, 212);
     margin: 1%;
     padding: 10%;
-    background-color: rgba(204, 165, 214, 0.6);
+    background-color: rgba(204, 165, 214, 0.8);
     border-radius: 25px;
 }
 

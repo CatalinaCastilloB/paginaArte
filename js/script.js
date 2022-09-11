@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
     //let nombre = "Santiago";
     //let edad   = 34; 
 
-    let boton = document.getElementById("btn-suscribir");
+    let boton = document.getElementById("btn-contact");
     boton.addEventListener("click", (ev) => {
         try {
             // recuperar los valores del formulario 
@@ -19,18 +19,17 @@ window.addEventListener('DOMContentLoaded', (e) => {
             if( nombre.length < 5 ) {
                 throw new Error("El nombre es demasiado corto!!!");
             }
-            let genero  = getGenero(); 
-            let intereses = getIntereses();
+
+            let mensaje = document.getElementById("nombre").value;
+            
             let suscriptor = { // JSON =  JavaScript object notation 
                 // clave: valor
                 nombre_completo: nombre,  //nombre,
                 email, // email: email,
-                genero,
-                intereses,
-                fecha_registro: (new Date()).toISOString() 
+               mensaje
             };        
             console.dir(suscriptor);
-            guardarSuscriptor( suscriptor );
+            
             mostrarExito("Se guardó correctamente su suscripción!!!");
         } catch(err) { 
             mostrarError(err.message); 
