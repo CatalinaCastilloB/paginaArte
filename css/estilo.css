@@ -3,14 +3,20 @@ Estilo de pagina  general
 
 */
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body, html{
     padding: 0%;
     margin: 0%;
-    border: 1px rgb(200, 141, 83);
+    border: 1px transparent;
     background-image: url("../assets/clouds.gif");
     background-size: cover;
     background-color: #f1f1f1;
     font-size: large;
+    height: 110vh;
 }
 
 h1{
@@ -21,16 +27,21 @@ h1{
 img{
     border-radius: 15%;
     margin-inline: auto;
-
+    width: 100%;
+    
 }
 
 footer{
-    position:120vh;
+    position:fixed 120vh;
     bottom: 0px;
     border: 1px transparent;
     color: #f1f1f1;
-
 }
+
+.secundario{
+    display:none;
+}
+
 
 input{
     width: 100%;
@@ -85,9 +96,46 @@ textarea#mensaje{
     padding-top: 18%;
 }
 
+
+.imgLogo{
+    width: 40px;
+}
+
+#navBtn{
+    background-color: transparent;
+    color: #f1f1f1;
+    width: 15vw;
+    height: 10vh;
+    border: 1px transparent;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+
 @media only screen and (max-width: 768px) {
 [class*="miyu"] {
     width: 100vw;
     height: 100vw;
   }
+
+[class*="principal"]{
+    display: none;
+}
+
+[class*="secundario"]{
+    display: inline-flex;
+    border: 1px transparent;
+    padding: 1px;
+    margin: 1px;
+    width: -webkit-fill-available;
+}
+
+[class*="logoNav"]{
+    width:10vw;
+    border: 1px transparent;
+    padding-left: 70vw;
+}
+
+[id*="miyuMenu"]{
+    float: left;
+}
 }

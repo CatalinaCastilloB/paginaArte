@@ -1,12 +1,6 @@
-<header class="p-3 bg-dark text-white">
-  <div class="container">
+<header class="p-2 bg-dark text-white">
+  <div class="container principal">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-      </a>
-
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="./index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
         <li><a href="./favoritos.html" class="nav-link px-2 text-white">Favoritos</a></li>
@@ -15,7 +9,28 @@
         <li><a href="./tipsArte.html" class="nav-link px-2 text-white">Tutoriales</a></li>
       </ul>
 
-      <img src="./assets/logo.svg" class="img-fluid" alt="logo" style="width:50px;"/>
+      <img src="./assets/logo.svg" alt="logo" style="width:40px;"/>
     </div>
   </div>
+
+ 
+    <div class="dropdown">
+      <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="./assets/menu.svg" alt="menu" height="60vh"/>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="./index.html"      >Inicio</a>
+        <a class="dropdown-item" href="./favoritos.html"  >Favoritos</a>
+        <a class="dropdown-item" href="./contacto.html"   >Contacto</a>
+        <a class="dropdown-item" href="./miArte.html"     >Mi arte</a>
+        <a class="dropdown-item" href="./tipsArte.html"   >Tutoriales</a>
+      </div>
+    </div> 
+    
+
+    <div class="logoNav">
+      <img src="./assets/logo.svg" alt="logo" class="imgLogo"/>
+    </div>
+
+  
 </header>

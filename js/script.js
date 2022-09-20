@@ -1,14 +1,15 @@
-window.addEventListener('DOMContentLoaded', (e) => {
+
     // con el evento DOMContentLoaded me aseguró que todas las etiquetas HTML 
     // fueron cargadas y procesadas por el browser 
     // más info en: https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event
-    console.log("evento DOMContentLoaded");
+  
 
     // Sintaxis de variables:
     // let nombreVariable = valor;
     // más ejemplos
     //let nombre = "Santiago";
     //let edad   = 34; 
+
 
     let boton = document.getElementById("btn-contact");
     boton.addEventListener("click", (ev) => {
@@ -32,7 +33,15 @@ window.addEventListener('DOMContentLoaded', (e) => {
             
             mostrarExito("Se guardó correctamente su suscripción!!!");
         } catch(err) { 
-            mostrarError(err.message); 
+            console.log(err.message); 
         }
-    });    
-});
+    });  
+
+
+  
+
+
+   
+
+
+/** probar con el bootstrap, tal vel hay interferencia entre los codigos */
