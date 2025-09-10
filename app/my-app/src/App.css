@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width:100vw;
+  margin: 0 ;
+  padding: 0;
   text-align: center;
 }
 
@@ -33,23 +33,26 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
+
 
 .read-the-docs {
-  color: #888;
+  color: #eeeee4e1;
 }
 
-
+body{
+  background-color: #012E40;
+}
 /* Sticky header */
 header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #4f46e5;
-  color: white;
-  padding: 1rem;
+  background-color:#064a62;
+  color: #eeeee4e1;
+  padding: 1%;
+  margin:auto;
+  margin-bottom: 1vh;
+  height: 8vh;
 }
 
 /* Header content */
@@ -57,11 +60,12 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 98%;;
 }
 
 header nav a {
   margin-left: 1rem;
-  color: white;
+  color:#eeeee4e1;
   text-decoration: none;
 }
 
@@ -72,13 +76,18 @@ header nav a:hover {
 /* Main content */
 main {
   padding: 2rem;
+  margin: 1vh auto;
   min-height: 70vh;
+  width: 80vw;
+  max-width: 1800px;
+  background-color:#00b4b4 ;
+  border-radius: 5px;;
 }
 
 /* Footer */
 footer {
-  background-color: #1f2937;
-  color: #d1d5db;
+  background-color: #012E40 ;
+  color:#eeeee4e1;
   text-align: center;
   padding: 1rem;
 }
