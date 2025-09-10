@@ -18,3 +18,9 @@
 npm run dev
 
 router: npm install react-router-dom
+
+para las cartas, instalar
+@react-spring/web react-use-gesture styled-components
+
+pagina:
+https://new-prototype-k9vqc.web.app
